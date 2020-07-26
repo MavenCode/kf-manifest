@@ -61,8 +61,8 @@ images:
 - name: gcr.io/kubeflow-images-public/metadata
   newName: gcr.io/kubeflow-images-public/metadata
   newTag: v0.1.11
-- name: gcr.io/tfx-oss-public/ml_metadata_store_server
-  newName: gcr.io/tfx-oss-public/ml_metadata_store_server
+- name: mavencode/ml_metadata_store_server
+  newName: mavencode/ml_metadata_store_server
   newTag: v0.21.1
 - name: gcr.io/ml-pipeline/envoy
   newName: gcr.io/ml-pipeline/envoy

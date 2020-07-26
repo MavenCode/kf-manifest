@@ -72,7 +72,7 @@ data:
             ]
         },
         "pytorch": {
-            "image": "gcr.io/kfserving/pytorchserver",
+            "image": "mavencode/kfserving-pytorchserver",
             "defaultImageVersion": "v0.3.0",
             "defaultGpuImageVersion": "v0.3.0-gpu",
             "allowedImageVersions": [
@@ -90,7 +90,7 @@ data:
     }
   storageInitializer: |-
     {
-        "image" : "gcr.io/kfserving/storage-initializer:v0.3.0",
+        "image" : "mavencode/kfserving-storage-initializer:v0.3.0",
         "memoryRequest": "100Mi",
         "memoryLimit": "1Gi",
         "cpuRequest": "100m",
